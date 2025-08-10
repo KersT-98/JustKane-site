@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #f5f0e6;
+    color: #222;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #344e41;
+  }
+  
+  .hero {
+    padding: 2rem;
+    text-align: center;
+    background: #d2cfc7;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .videos, .music-store {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .videos .text {
+    max-width: 500px;
+  }
+  
+  .presskit img {
+    width: 200px;
+    border-radius: 12px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #344e41;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  .product {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .booking form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .booking input, .booking textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-family: inherit;
+    
+  }
+  body {
+  background: lightblue;
+}
